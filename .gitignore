@@ -7,3 +7,19 @@ packages
 *.pidb
 *.suo
 *.user
+/GEDCOM X File Test Project 2/obj
+/GEDCOM X FileTests
+/FamilySearch.Api/obj/Release/netstandard2.0
+/GEDCOM X Date/obj/Release/netstandard2.0
+/GEDCOM X File/obj/Release
+/GEDCOM X Support/obj/Release/netstandard2.0
+/Gedcomx.CLI/obj/Release/net7.0
+/Gedcomx.CLI.Test/obj/Release/net7.0
+/Gedcomx.Model/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+/Gedcomx.Model/obj/Release/netstandard2.0
+/Gedcomx.Util/obj/Release/netstandard2.0
+/Gedcomx.Rs.Api.Test/obj/Release/netstandard2.0
+/Gedcomx.Rs.Api/obj/Release/netstandard2.0
+/Gedcomx.Model.Rs/obj/Release/netstandard2.0
+/Gedcomx.Model.Fs/obj/Release/netstandard2.0
+/.vs/gedcomx-csharp/DesignTimeBuild
