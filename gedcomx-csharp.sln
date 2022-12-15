@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5BB9
 		GEDCOM X Test1.xml = GEDCOM X Test1.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEDCOM X File Tests", "GEDCOM X File Test Project 2\GEDCOM X File Tests.csproj", "{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,12 @@ Global
 		{4A6F7218-7AA8-40FD-8FE9-E309635242B7}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{4A6F7218-7AA8-40FD-8FE9-E309635242B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6F7218-7AA8-40FD-8FE9-E309635242B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46BA39D-FAAF-4218-A4E8-4EBCDC42CE7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
