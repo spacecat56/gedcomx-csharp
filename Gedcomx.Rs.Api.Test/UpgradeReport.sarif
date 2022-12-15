@@ -1,0 +1,746 @@
+﻿{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Back up project",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep",
+              "fullDescription": {
+                "text": "Project backed up to D:\\projects\\public\\gedcomx-csharp\\Gedcomx.Rs.Api.Test.backup"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Backup.BackupStep",
+          "message": {
+            "text": "Complete: Project backed up to D:\\projects\\public\\gedcomx-csharp\\Gedcomx.Rs.Api.Test.backup"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test.backup"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Convert project file to SDK style",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep",
+              "fullDescription": {
+                "text": "Project file converted successfully! The project may require additional changes to build successfully against the new .NET target."
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.TryConvertProjectConverterStep",
+          "message": {
+            "text": "Complete: Project file converted successfully! The project may require additional changes to build successfully against the new .NET target."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove reference 'System.Net.Http.WebRequest'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.Reference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove reference 'System.Net.Http.WebRequest'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.Reference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove reference 'System.Net.Http.WebRequest'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'Microsoft.Net.Http'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'Microsoft.Net.Http'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'Microsoft.Net.Http'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'System.Net.Http'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'System.Net.Http'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'System.Net.Http'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'Microsoft.Bcl.Build'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'Microsoft.Bcl.Build'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'Microsoft.Bcl.Build'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Update TFM",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep",
+              "fullDescription": {
+                "text": "Updated TFM to netstandard2.0"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep",
+          "message": {
+            "text": "Complete: Updated TFM to netstandard2.0"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'Microsoft.Bcl'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'Microsoft.Bcl'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'Microsoft.Bcl'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'CompareNETObjects'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'CompareNETObjects'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'CompareNETObjects'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'json-ld.net'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'json-ld.net'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'json-ld.net'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'NUnit'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'NUnit'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'NUnit'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'RestSharp'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'RestSharp'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'RestSharp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'Tavis.UriTemplates'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'Tavis.UriTemplates'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'Tavis.UriTemplates'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'CompareNETObjects'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'CompareNETObjects'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'CompareNETObjects'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'json-ld.net'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'json-ld.net'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'json-ld.net'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'NUnit'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'NUnit'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'NUnit'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'RestSharp'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'RestSharp'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'RestSharp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Add package 'Tavis.UriTemplates'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Add package 'Tavis.UriTemplates'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Add package 'Tavis.UriTemplates'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "Remove package 'Newtonsoft.Json'",
+          "semanticVersion": "",
+          "informationUri": "https://github.com/dotnet/upgrade-assistant#usage",
+          "rules": [
+            {
+              "id": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+              "fullDescription": {
+                "text": "Remove package 'Newtonsoft.Json'"
+              },
+              "helpUri": "about:blank"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep+PackageManipulationStep`1[[Microsoft.DotNet.UpgradeAssistant.NuGetReference, Microsoft.DotNet.UpgradeAssistant.Abstractions, Version=0.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
+          "message": {
+            "text": "Complete: Remove package 'Newtonsoft.Json'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/public/gedcomx-csharp/Gedcomx.Rs.Api.Test/Gedcomx.Rs.Api.Test.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
